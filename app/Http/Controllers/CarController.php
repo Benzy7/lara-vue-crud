@@ -17,7 +17,7 @@ class CarController extends Controller
     {
         //return Car::all();
 
-        $cars = Car::paginate(3);
+        $cars = Car::paginate(5);
         return $cars;
     }
 

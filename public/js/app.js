@@ -1995,6 +1995,7 @@ __webpack_require__.r(__webpack_exports__);
         })["catch"](function (err) {
           return console.log(err);
         });
+        this.edit = false;
       }
     },
     editCar: function editCar(car) {

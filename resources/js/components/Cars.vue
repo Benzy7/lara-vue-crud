@@ -139,6 +139,7 @@ export default {
                     this.fetchCars();
                 })
                 .catch(err => console.log(err));
+                this.edit = false;
             }
         },
         editCar(car) {
